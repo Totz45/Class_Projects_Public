@@ -1,0 +1,125 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c8eef4; /* Light cyan background */
+}
+
+/* Header styles */
+header {
+    background-color: #00796b; /* Teal background */
+    color: #fff;
+    padding: 20px 0; /* Increased padding */
+    text-align: center;
+    height: 90px; /* Adjusted height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+header h1 { 
+    margin: 0; 
+    padding-top: 20px; /* Added padding to create space */ 
+    line-height: 70px; /* Adjusted line-height */ 
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #004d40; /* Dark teal background */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #00695c; /* Slightly lighter teal on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */ 
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+} 
+
+table, th, td { 
+    border: 1px solid #ddd; 
+} 
+
+th, td { 
+    padding: 10px; 
+    text-align: left; 
+} 
+
+th { 
+    background-color: #00796b; /* Teal background */ 
+    color: #fff; 
+} 
+    
+tr:nth-child(even) { 
+    background-color: #f2f2f2; 
+}
+
+/* Footer styles */
+footer {
+    background-color: #00796b; /* Teal background */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Figure and Figcaption styles */ 
+figure { 
+    margin: 20px auto; 
+    text-align: center; 
+} 
+
+figcaption { 
+    margin-top: 10px; 
+    font-style: italic; 
+    color: #555; 
+} 
+
+/* Image styles */ 
+img { 
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* Image row styles */ 
+.image-row 
+{ 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; /* Space between images */ 
+    margin: 20px auto; 
+}
+

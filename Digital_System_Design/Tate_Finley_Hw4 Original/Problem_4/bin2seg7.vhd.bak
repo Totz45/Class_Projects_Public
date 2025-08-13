@@ -1,0 +1,37 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity bin2seg7 is
+ port( inData: in STD_LOGIC_VECTOR(3 downto 0);
+		 blanking: in STD_LOGIC;
+		 dispHex, dispPoint: in STD_LOGIC;
+		 segA, segB, segC, segD: out STD_LOGIC;
+		 segE, segF, segG: out STD_LOGIC;
+		 segPoint: out STD_LOGIC);
+end entity bin2seg7;
+
+
+architecture behavorial of bin2seg7 is
+begin
+		Display: process(inData)
+		begin
+			case (inData) is
+				when '0000' => 
+					segA <= '1';
+					segB <= '1';
+					segC <= '1';
+					segD <= '1';
+					segE <= '1';
+					segF <= '1';
+					segG <= '0';
+				when others =>
+					segA <= 'X';
+					segB <= 'X';
+					segC <= 'X';
+					segD <= 'X';
+					segE <= 'X';
+					segF <= 'X';
+					segG <= 'X';
+			end case;
+		end process;
+end architecture behavorial;

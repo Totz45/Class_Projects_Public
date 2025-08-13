@@ -1,0 +1,86 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ECE3140_DSD/Tate_Finley_Hw4/Problem_4/Modelsim
+Ebin2seg7
+Z1 w1709690934
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8../bin2seg7.vhd
+Z5 F../bin2seg7.vhd
+l0
+L4
+V[^UFN2^MNUgY7<9<lV`1z1
+!s100 ^=aoJgi6G;AHM9XDkc8YV1
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1710094355
+!i10b 1
+Z8 !s108 1710094355.000000
+Z9 !s90 -reportprogress|300|../bin2seg7.vhd|
+Z10 !s107 ../bin2seg7.vhd|
+!i113 1
+Z11 tExplicit 1 CvgOpt 0
+Abehavorial
+R2
+R3
+DEx4 work 8 bin2seg7 0 22 [^UFN2^MNUgY7<9<lV`1z1
+l15
+L14
+VP3PJcHBQ;ZkPh5W:^aoID0
+!s100 M[216Fbcb6kOUlGTDHhhX1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Etestbench
+Z12 w1710093924
+Z13 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z14 8testbench.vht
+Z15 Ftestbench.vht
+l0
+L16
+VBTmgcHIaZa:YlkdMbf<HX1
+!s100 >Nc7@m`V@KBjb149WXK:V0
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|testbench.vht|
+Z17 !s107 testbench.vht|
+!i113 1
+R11
+Abench
+R13
+R2
+R3
+Z18 DEx4 work 9 testbench 0 22 BTmgcHIaZa:YlkdMbf<HX1
+l34
+L19
+Z19 Vj87^8F9bi0MV:2<3kzcg>3
+Z20 !s100 PFd7QUoY[MTOI9gjOIeA`0
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11

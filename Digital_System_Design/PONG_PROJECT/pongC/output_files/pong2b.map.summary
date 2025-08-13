@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Thu Apr 25 11:25:12 2024
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Lite Edition
+Revision Name : pong2b
+Top-level Entity Name : pong2b
+Family : MAX 10
+Total logic elements : 7,589
+    Total combinational functions : 7,501
+    Dedicated logic registers : 568
+Total registers : 568
+Total pins : 57
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

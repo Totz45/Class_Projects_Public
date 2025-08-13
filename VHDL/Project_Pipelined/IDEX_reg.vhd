@@ -1,0 +1,65 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity IDEX_reg is
+    Port (clk           : in  std_logic;
+        rst           : in  std_logic;  -- synchronous reset, active high
+
+        -- Control signal groups from the ID stage:
+        WB_in         : in  std_logic_vector(1 downto 0);  -- e.g. {RegWrite, MemtoReg}
+        MEM_in        : in  std_logic_vector(2 downto 0);  -- e.g. {Branch, Mem_Read, Mem_Write}
+        EX_in         : in  std_logic_vector(3 downto 0);  -- e.g. {RegDst, ALUSrc, ALUop(1 downto 0)}
+
+        -- Data signals coming from the ID stage:
+		  pc4_in         : in  std_logic_vector(31 downto 0);
+        read_data1_in : in  std_logic_vector(31 downto 0);
+        read_data2_in : in  std_logic_vector(31 downto 0);
+        sign_ext_in   : in  std_logic_vector(31 downto 0);
+        rs_in         : in  std_logic_vector(4 downto 0);
+        rt_in         : in  std_logic_vector(4 downto 0);
+       
+
+        -- Pipeline outputs for control signals:
+        WB_out        : out std_logic_vector(1 downto 0);
+        MEM_out       : out std_logic_vector(2 downto 0);
+        EX_out        : out std_logic_vector(3 downto 0);
+
+        -- Pipeline outputs for data signals:
+		  pc4_out        : out std_logic_vector(31 downto 0);
+        read_data1_out: out std_logic_vector(31 downto 0);
+        read_data2_out: out std_logic_vector(31 downto 0);
+        sign_ext_out  : out std_logic_vector(31 downto 0);
+        rs_out        : out std_logic_vector(4 downto 0);
+        rt_out        : out std_logic_vector(4 downto 0));
+end IDEX_reg;
+
+architecture Behavioral of IDEX_reg is
+begin
+    process(clk)
+    begin
+        if rst = '1' then
+            WB_out         <= (others => '0');
+            MEM_out        <= (others => '0');
+            EX_out         <= (others => '0');
+				pc4_out         <= (others => '0');
+            read_data1_out <= (others => '0');
+            read_data2_out <= (others => '0');
+            sign_ext_out   <= (others => '0');
+            rs_out         <= (others => '0');
+            rt_out         <= (others => '0');
+        elsif rising_edge(clk) then
+            -- Latch the control signals:
+            WB_out         <= WB_in;
+            MEM_out        <= MEM_in;
+            EX_out         <= EX_in;
+            
+            -- Latch the data signals:
+				pc4_out         <= pc4_in;
+            read_data1_out <= read_data1_in;
+            read_data2_out <= read_data2_in;
+            sign_ext_out   <= sign_ext_in;
+            rs_out         <= rs_in;
+            rt_out         <= rt_in;
+        end if;
+    end process;
+end Behavioral;

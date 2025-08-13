@@ -1,0 +1,8 @@
+Both managers and staff work for a branch. 
+A branch has to have a manager.
+A branch can have more than one manager.
+Every staff and manager has a start date. 
+The state must be one of the fifty states located within the United States.
+A dvd copy is either rented 'R' or in stock 'S'.
+Every member has to have a registration date.
+A member has to have a first name.

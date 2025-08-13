@@ -1,0 +1,137 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'vga_controller:U2|disp_ena'
+Slack : -10.571
+TNS   : -60.839
+
+Type  : Slow 1200mV 85C Model Setup 'pixel_clk_m'
+Slack : 4.397
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 29.481
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pixel_clk_m'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.421
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vga_controller:U2|disp_ena'
+Slack : 3.022
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'pixel_clk_m'
+Slack : 19.089
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'pixel_clk_m'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga_controller:U2|disp_ena'
+Slack : 0.459
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pixel_clk_m'
+Slack : 9.675
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.587
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'vga_controller:U2|disp_ena'
+Slack : -9.717
+TNS   : -55.960
+
+Type  : Slow 1200mV 0C Model Setup 'pixel_clk_m'
+Slack : 5.618
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 30.297
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pixel_clk_m'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vga_controller:U2|disp_ena'
+Slack : 2.859
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'pixel_clk_m'
+Slack : 19.135
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'pixel_clk_m'
+Slack : 0.240
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga_controller:U2|disp_ena'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pixel_clk_m'
+Slack : 9.699
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.571
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'vga_controller:U2|disp_ena'
+Slack : -4.038
+TNS   : -23.164
+
+Type  : Fast 1200mV 0C Model Setup 'pixel_clk_m'
+Slack : 13.336
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 35.244
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pixel_clk_m'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vga_controller:U2|disp_ena'
+Slack : 1.070
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'pixel_clk_m'
+Slack : 19.507
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'pixel_clk_m'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga_controller:U2|disp_ena'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pixel_clk_m'
+Slack : 9.439
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.666
+TNS   : 0.000
+
+------------------------------------------------------------

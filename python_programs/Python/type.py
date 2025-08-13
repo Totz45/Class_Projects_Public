@@ -1,0 +1,1 @@
+print(type(dict())) #type expresses class type

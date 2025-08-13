@@ -1,0 +1,43 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity ALU_Control_unit is
+    Port ( 	ALUop             : in  std_logic_vector(1 downto 0);
+				Function_instr       : in  std_logic_vector(5 downto 0);
+				ALU_Sig: out std_logic_vector(3 downto 0));
+end ALU_Control_unit;
+
+architecture Behavioral of ALU_Control_unit is
+begin
+    process(ALUop, Function_in)
+    begin
+        case ALUop is
+            when "00" =>
+                -- For lw, sw, addi: use addition
+                ALU_Sig <= "0010";
+            when "01" =>
+                -- For branch (beq): use subtraction
+                ALU_Sig <= "0110";
+            when "10" =>
+                -- R-type instructions: choose based on the function field.
+                case Function_instr is
+                    when "100000" =>   -- add:  full funct "100000"
+                        ALU_Sig <= "0010";
+                    when "100010" =>   -- subtract: full funct "100010"
+                        ALU_Sig <= "0110";
+                    when "100100" =>   -- and: full funct "100100"
+                        ALU_Sig <= "0000";
+                    when "100101" =>   -- or: full funct "100101"
+                        ALU_Sig <= "0001";
+                    when "100110" =>   -- xor: full funct "100110"
+                        ALU_Sig <= "0111";
+                    when "100111" =>   -- nor: full funct "100111"
+                        ALU_Sig <= "1100";
+                    when others =>
+                        ALU_Sig <= "0000";  -- default/fallback
+                end case;
+            when others =>
+                ALU_Sig <= "0000";
+        end case;
+    end process;
+end Behavioral;

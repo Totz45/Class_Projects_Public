@@ -1,0 +1,1 @@
+If LED is not flashing press RST button on the eduboard. To decrypt message, press any character while holding switch 5 down.

@@ -1,0 +1,123 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ECE3140_DSD/Tate_Finley_Hw6_Copy/Problem_2/ModelSim
+Ehw6p2
+Z1 w1711934734
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8../hw6p2.vhd
+Z5 F../hw6p2.vhd
+l0
+L9
+VgAWi[1D:4fTL^lTM`KcWk0
+!s100 dGbJe1GNCDh;_?8]@U>[T2
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1711943857
+!i10b 1
+Z8 !s108 1711943857.000000
+Z9 !s90 -reportprogress|300|../hw6p2.vhd|../ripple_counter.vhd|
+Z10 !s107 ../ripple_counter.vhd|../hw6p2.vhd|
+!i113 1
+Z11 tExplicit 1 CvgOpt 0
+Adesign
+R2
+R3
+DEx4 work 5 hw6p2 0 22 gAWi[1D:4fTL^lTM`KcWk0
+l40
+L17
+VWHo3VZc^S4A;6zG^za5`90
+!s100 j^XGRT`W:9b9Y<>8Zb5bk3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Eripple_counter
+Z12 w1711394911
+R2
+R3
+R0
+Z13 8../ripple_counter.vhd
+Z14 F../ripple_counter.vhd
+l0
+L4
+VD[A=9;NI8:CF_^d=`V93L0
+!s100 bzM;JLEDaQHKGGjhOVCV^1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Aarch_rtl
+R2
+R3
+DEx4 work 14 ripple_counter 0 22 D[A=9;NI8:CF_^d=`V93L0
+l16
+L12
+VCKVdz1AMSVS0cPY:fJG5Z0
+!s100 T^:mH3fE<YSMjBfNE:f5?2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Etestbench
+Z15 w1711927206
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z17 8testbench.vht
+Z18 Ftestbench.vht
+l0
+L16
+VBTmgcHIaZa:YlkdMbf<HX1
+!s100 >Nc7@m`V@KBjb149WXK:V0
+R6
+32
+R7
+!i10b 1
+R8
+Z19 !s90 -reportprogress|300|testbench.vht|
+Z20 !s107 testbench.vht|
+!i113 1
+R11
+Abench
+R16
+R2
+R3
+DEx4 work 9 testbench 0 22 BTmgcHIaZa:YlkdMbf<HX1
+l39
+L19
+V:ZfE61mQafK3d?EEo5<B43
+!s100 1NKdzlG?X27mLOR>UkzR_2
+R6
+32
+R7
+!i10b 1
+R8
+R19
+R20
+!i113 1
+R11

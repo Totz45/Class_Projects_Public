@@ -1,0 +1,46 @@
+-- File Name: RAM_top.vhd
+-- Author: Tate Finley
+-- Purpose: Complete RAM component of computer.
+
+Library ieee;
+use ieee.std_logic_1164.all;
+
+entity RAM_top is 
+	port( D:					IN STD_LOGIC_VECTOR(31 downto 0);
+			address:			IN STD_LOGIC_VECTOR(7 downto 0);
+			clock, reset: 	IN STD_LOGIC;
+			wren: 			IN STD_LOGIC;
+			Q: 				OUT STD_LOGIC_VECTOR(31 downto 0));
+end entity RAM_top;
+
+
+architecture RAM_top_arch of RAM_top is
+signal data_to_memory 	: STD_LOGIC_VECTOR(31 downto 0);
+signal output 	: STD_LOGIC_VECTOR(31 downto 0);
+
+component mem1 IS
+	PORT
+	(
+		address		: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+		clock		: IN STD_LOGIC;
+		data		: IN STD_LOGIC_VECTOR (31 DOWNTO 0);
+		wren		: IN STD_LOGIC ;
+		q		: OUT STD_LOGIC_VECTOR (31 DOWNTO 0)
+	);
+END component;
+
+component regn
+	Generic (N : INTEGER := 32);
+	Port( D : IN STD_LOGIC_VECTOR(N-1 downto 0);
+	      Clock, Resetn : IN STD_LOGIC;
+			Q : OUT STD_LOGIC_VECTOR(N-1 downto 0));
+end component;
+	
+begin
+
+DUT1: mem1 port map(address, clock, D, wren, data_to_memory);
+DUT2: regn port map (data_to_memory, clock, reset, output);
+
+Q <= output;
+
+end RAM_top_arch;

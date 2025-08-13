@@ -1,0 +1,18 @@
+Fitter Status : Successful - Mon Apr 22 13:37:02 2024
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Lite Edition
+Revision Name : pong2b
+Top-level Entity Name : pong2b
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 7,237 / 49,760 ( 15 % )
+    Total combinational functions : 7,200 / 49,760 ( 14 % )
+    Dedicated logic registers : 566 / 49,760 ( 1 % )
+Total registers : 566
+Total pins : 54 / 360 ( 15 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,677,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

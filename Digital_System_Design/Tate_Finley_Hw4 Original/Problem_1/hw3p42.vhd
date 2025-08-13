@@ -1,0 +1,65 @@
+----------------------------------
+-- Tate Finley
+-- ECE 3140
+-- HW3 Problem 6
+--
+-- Implementation for problem 4.2
+----------------------------------
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+-- This design accepts a four-bit
+-- unsigned binary number as input (in3
+-- is MSb and in0 is LSb)
+-- The design has two output Booleans:
+--  out_42A: Result of output f for problem 4.2
+--  out_42B: Result of output g for problem 4.2
+
+entity hw3p42 is port(
+  in3: in std_logic;
+  in2: in std_logic;
+  in1: in std_logic;
+  in0: in std_logic;
+  out_42A: out std_logic;
+  out_42B: out std_logic);  
+end entity hw3p42;
+
+-- ---------------------------------------
+--   THE Architecture OF YOUR DESIGN GOES IN THIS
+--    SECTION. 
+-- ---------------------------------------
+architecture Logic42 of hw3p42 is
+  signal in3bar : std_logic;
+  signal temp1, temp2, temp3, temp4, temp5 : std_logic;
+  
+  component my_Inv is
+	port( x: in std_logic;
+  	  	  y: out std_logic);
+  end component;
+  
+  component my_And2 is
+	port( x,y: in std_logic;
+  	  		z: out std_logic);
+  end component;
+
+  component my_Or2 is
+	port( x,y: in std_logic;
+  	  		z: out std_logic);
+  end component;
+  
+  component my_Nand2 is
+	port( x,y: in std_logic;
+  	  		z: out std_logic);
+  end component;
+  
+  begin
+    U0: my_Inv port map (x=>in3, y=>in3bar);
+    U1: my_And2 port map (x=>in2, y=>in1, z=>temp1);
+    U2: my_Nand2 port map (x=>in3bar, y=>in0, z=>temp2);
+    U3: my_Nand2 port map (x=>in3bar, y=>temp2, z=>temp3);
+    U4: my_Or2 port map (x=>in3bar, y=>temp1, z=>temp4);
+    U5: my_And2 port map (x=>temp3, y=>temp4, z=>out_42A);
+    U6: my_And2 port map (x=>temp4, y=>temp2, z=>out_42B);
+       
+end architecture Logic42;

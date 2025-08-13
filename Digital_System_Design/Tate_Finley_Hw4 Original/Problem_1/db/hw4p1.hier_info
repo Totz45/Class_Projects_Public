@@ -1,0 +1,69 @@
+|hw4p1
+SW[0] => Switch[0].DATAA
+SW[0] => Switch[0].DATAB
+SW[1] => Switch[1].DATAA
+SW[1] => Switch[1].DATAB
+SW[2] => Switch[2].DATAA
+SW[2] => Switch[2].DATAB
+SW[3] => Switch[3].DATAA
+SW[3] => Switch[3].DATAB
+KEY[0] => LEDR0.OUTPUTSELECT
+KEY[0] => LEDR9.OUTPUTSELECT
+KEY[1] => Switch[3].OUTPUTSELECT
+KEY[1] => Switch[2].OUTPUTSELECT
+KEY[1] => Switch[1].OUTPUTSELECT
+KEY[1] => Switch[0].OUTPUTSELECT
+LEDR0 << LEDR0.DB_MAX_OUTPUT_PORT_TYPE
+LEDR9 << LEDR9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hw4p1|hw3p42:DUT0
+in3 => my_Inv:U0.x
+in2 => my_And2:U1.x
+in1 => my_And2:U1.y
+in0 => my_Nand2:U2.y
+out_42A <= my_And2:U5.z
+out_42B <= my_And2:U6.z
+
+
+|hw4p1|hw3p42:DUT0|my_Inv:U0
+x => y.DATAIN
+y <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hw4p1|hw3p42:DUT0|my_And2:U1
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hw4p1|hw3p42:DUT0|my_Nand2:U2
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hw4p1|hw3p42:DUT0|my_Nand2:U3
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hw4p1|hw3p42:DUT0|my_Or2:U4
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hw4p1|hw3p42:DUT0|my_And2:U5
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hw4p1|hw3p42:DUT0|my_And2:U6
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+

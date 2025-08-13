@@ -1,0 +1,16 @@
+Library ieee;
+
+entity reg_unit is 
+	port ( reg_read_1, reg_read_2 : IN STD_LOGIC_VECTOR(4 downto 0);
+			 write_reg_1 : IN STD_LOGIC_VECTOR(4 downto 0);
+			 reg_write_sig : IN STD_LOGIC_VECTOR(4 downto 0);
+			 data_write : IN STD_LOGIC_VECTOR(31 downto 0);
+			 read_out_1, read_out_2 : OUT STD_LOGIC_VECTOR(31 downto 0));
+end entity reg_unit
+
+
+architecture reg_arch of reg_unit is
+	
+
+
+end reg_arch;

@@ -1,0 +1,7 @@
+
+State Machine - |hw5p2|hw5p1:U0|Current_State
+Name Current_State.d Current_State.c Current_State.b Current_State.a 
+Current_State.a 0 0 0 0 
+Current_State.b 0 0 1 1 
+Current_State.c 0 1 0 1 
+Current_State.d 1 0 0 1 

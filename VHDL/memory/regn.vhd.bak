@@ -1,0 +1,22 @@
+Library ieee;
+use ieee.std_logic_1164.all;
+
+entity regn is
+	Generic ( N : INTEGER);
+	Port( D : IN STD_LOGIC_VECTOR(N-1 downto 0);
+	      Clock, Resetn : IN STD_LOGIC;
+			Q : OUT STD_LOGIC_VECTOR(N-1 downto 0));
+end entity regn;
+
+architecture behavioral of regn is
+begin
+	process(Clock, Resetn)
+	begin
+		if Resetn = '1' then
+          Q <= (others => '0');
+      elsif rising_edge(Clock) then
+          Q <= D;
+      end if;
+   end process;
+
+end behavioral;

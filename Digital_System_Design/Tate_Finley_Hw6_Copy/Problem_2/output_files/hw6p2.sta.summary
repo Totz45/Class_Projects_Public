@@ -1,0 +1,1457 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[11]'
+Slack : -0.767
+TNS   : -0.767
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[3]'
+Slack : -0.737
+TNS   : -0.737
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[14]'
+Slack : -0.699
+TNS   : -0.699
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[21]'
+Slack : -0.646
+TNS   : -0.646
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[16]'
+Slack : -0.635
+TNS   : -0.635
+
+Type  : Slow 1200mV 85C Model Setup 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.621
+TNS   : -0.621
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[9]'
+Slack : -0.583
+TNS   : -0.583
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[12]'
+Slack : -0.565
+TNS   : -0.565
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[18]'
+Slack : -0.565
+TNS   : -0.565
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[13]'
+Slack : -0.563
+TNS   : -0.563
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[6]'
+Slack : -0.533
+TNS   : -0.533
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[17]'
+Slack : -0.523
+TNS   : -0.523
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[15]'
+Slack : -0.495
+TNS   : -0.495
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[4]'
+Slack : -0.480
+TNS   : -0.480
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[8]'
+Slack : -0.440
+TNS   : -0.440
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[2]'
+Slack : -0.422
+TNS   : -0.422
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[20]'
+Slack : -0.414
+TNS   : -0.414
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[19]'
+Slack : -0.387
+TNS   : -0.387
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[10]'
+Slack : -0.357
+TNS   : -0.357
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[0]'
+Slack : -0.277
+TNS   : -0.277
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[7]'
+Slack : -0.253
+TNS   : -0.253
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[5]'
+Slack : -0.205
+TNS   : -0.205
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[1]'
+Slack : -0.065
+TNS   : -0.065
+
+Type  : Slow 1200mV 85C Model Setup 'ripple_counter:U0|q_i[22]'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[1]'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[22]'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[7]'
+Slack : 0.396
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[5]'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[19]'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[10]'
+Slack : 0.496
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[0]'
+Slack : 0.521
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[15]'
+Slack : 0.565
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[20]'
+Slack : 0.586
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[17]'
+Slack : 0.590
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[6]'
+Slack : 0.603
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[4]'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[12]'
+Slack : 0.631
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[2]'
+Slack : 0.639
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[8]'
+Slack : 0.658
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[18]'
+Slack : 0.672
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[14]'
+Slack : 0.725
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[16]'
+Slack : 0.743
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[13]'
+Slack : 0.782
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[3]'
+Slack : 0.795
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[9]'
+Slack : 0.802
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[11]'
+Slack : 0.832
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ripple_counter:U0|q_i[21]'
+Slack : 0.892
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -5.880
+TNS   : -5.880
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[10]'
+Slack : -4.526
+TNS   : -4.526
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[9]'
+Slack : -4.326
+TNS   : -4.326
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[6]'
+Slack : -4.256
+TNS   : -4.256
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[4]'
+Slack : -4.245
+TNS   : -4.245
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[2]'
+Slack : -4.218
+TNS   : -4.218
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[12]'
+Slack : -4.212
+TNS   : -4.212
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[8]'
+Slack : -4.211
+TNS   : -4.211
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[0]'
+Slack : -4.184
+TNS   : -4.184
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[19]'
+Slack : -4.061
+TNS   : -4.061
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[13]'
+Slack : -4.007
+TNS   : -4.007
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[17]'
+Slack : -3.887
+TNS   : -3.887
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[15]'
+Slack : -3.869
+TNS   : -3.869
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[5]'
+Slack : -3.805
+TNS   : -3.805
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[22]'
+Slack : -3.773
+TNS   : -3.773
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[3]'
+Slack : -3.771
+TNS   : -3.771
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[1]'
+Slack : -3.767
+TNS   : -3.767
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[18]'
+Slack : -3.757
+TNS   : -3.757
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[21]'
+Slack : -3.657
+TNS   : -3.657
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[16]'
+Slack : -3.578
+TNS   : -3.578
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[14]'
+Slack : -3.574
+TNS   : -3.574
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[11]'
+Slack : -3.535
+TNS   : -3.535
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[7]'
+Slack : -3.372
+TNS   : -3.372
+
+Type  : Slow 1200mV 85C Model Recovery 'ripple_counter:U0|q_i[20]'
+Slack : -3.241
+TNS   : -3.241
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[20]'
+Slack : 0.888
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[7]'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[11]'
+Slack : 1.112
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[14]'
+Slack : 1.193
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[16]'
+Slack : 1.209
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[21]'
+Slack : 1.321
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[3]'
+Slack : 1.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[18]'
+Slack : 1.360
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[1]'
+Slack : 1.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[22]'
+Slack : 1.371
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[5]'
+Slack : 1.415
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[15]'
+Slack : 1.501
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[17]'
+Slack : 1.531
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[13]'
+Slack : 1.615
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[19]'
+Slack : 1.676
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[0]'
+Slack : 1.794
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[12]'
+Slack : 1.817
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[8]'
+Slack : 1.822
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[2]'
+Slack : 1.831
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[4]'
+Slack : 1.851
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[6]'
+Slack : 1.884
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[9]'
+Slack : 1.912
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ripple_counter:U0|q_i[10]'
+Slack : 2.120
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.544
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[0]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[10]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[11]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[12]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[13]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[14]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[15]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[16]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[17]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[18]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[19]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[1]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[20]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[21]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[22]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[2]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[3]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[4]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[5]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[6]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[7]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[8]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ripple_counter:U0|q_i[9]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.871
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 29.544
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[11]'
+Slack : -0.693
+TNS   : -0.693
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[3]'
+Slack : -0.654
+TNS   : -0.654
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[14]'
+Slack : -0.626
+TNS   : -0.626
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[16]'
+Slack : -0.567
+TNS   : -0.567
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[21]'
+Slack : -0.559
+TNS   : -0.559
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[9]'
+Slack : -0.503
+TNS   : -0.503
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[18]'
+Slack : -0.501
+TNS   : -0.501
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[12]'
+Slack : -0.483
+TNS   : -0.483
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[13]'
+Slack : -0.482
+TNS   : -0.482
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[6]'
+Slack : -0.454
+TNS   : -0.454
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[17]'
+Slack : -0.448
+TNS   : -0.448
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[15]'
+Slack : -0.430
+TNS   : -0.430
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[4]'
+Slack : -0.409
+TNS   : -0.409
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[20]'
+Slack : -0.368
+TNS   : -0.368
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[8]'
+Slack : -0.364
+TNS   : -0.364
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[2]'
+Slack : -0.358
+TNS   : -0.358
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[19]'
+Slack : -0.337
+TNS   : -0.337
+
+Type  : Slow 1200mV 0C Model Setup 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.326
+TNS   : -0.326
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[10]'
+Slack : -0.287
+TNS   : -0.287
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[0]'
+Slack : -0.219
+TNS   : -0.219
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[7]'
+Slack : -0.213
+TNS   : -0.213
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[5]'
+Slack : -0.162
+TNS   : -0.162
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[1]'
+Slack : -0.033
+TNS   : -0.033
+
+Type  : Slow 1200mV 0C Model Setup 'ripple_counter:U0|q_i[22]'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.068
+TNS   : -0.068
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[1]'
+Slack : 0.324
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[22]'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[7]'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[5]'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[19]'
+Slack : 0.431
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[10]'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[0]'
+Slack : 0.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[15]'
+Slack : 0.532
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[20]'
+Slack : 0.551
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[17]'
+Slack : 0.555
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[6]'
+Slack : 0.563
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[2]'
+Slack : 0.575
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[4]'
+Slack : 0.575
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[12]'
+Slack : 0.588
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[8]'
+Slack : 0.616
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[18]'
+Slack : 0.636
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[14]'
+Slack : 0.694
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[16]'
+Slack : 0.706
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[13]'
+Slack : 0.730
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[9]'
+Slack : 0.752
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[3]'
+Slack : 0.762
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[11]'
+Slack : 0.789
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ripple_counter:U0|q_i[21]'
+Slack : 0.829
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -5.101
+TNS   : -5.101
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[10]'
+Slack : -4.122
+TNS   : -4.122
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[9]'
+Slack : -3.955
+TNS   : -3.955
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[6]'
+Slack : -3.863
+TNS   : -3.863
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[4]'
+Slack : -3.850
+TNS   : -3.850
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[8]'
+Slack : -3.831
+TNS   : -3.831
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[2]'
+Slack : -3.829
+TNS   : -3.829
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[12]'
+Slack : -3.824
+TNS   : -3.824
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[0]'
+Slack : -3.799
+TNS   : -3.799
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[19]'
+Slack : -3.705
+TNS   : -3.705
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[13]'
+Slack : -3.647
+TNS   : -3.647
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[17]'
+Slack : -3.526
+TNS   : -3.526
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[15]'
+Slack : -3.511
+TNS   : -3.511
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[5]'
+Slack : -3.465
+TNS   : -3.465
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[22]'
+Slack : -3.443
+TNS   : -3.443
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[1]'
+Slack : -3.432
+TNS   : -3.432
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[3]'
+Slack : -3.432
+TNS   : -3.432
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[18]'
+Slack : -3.429
+TNS   : -3.429
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[21]'
+Slack : -3.305
+TNS   : -3.305
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[16]'
+Slack : -3.259
+TNS   : -3.259
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[14]'
+Slack : -3.257
+TNS   : -3.257
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[11]'
+Slack : -3.221
+TNS   : -3.221
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[7]'
+Slack : -3.089
+TNS   : -3.089
+
+Type  : Slow 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[20]'
+Slack : -2.932
+TNS   : -2.932
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[20]'
+Slack : 0.815
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[7]'
+Slack : 0.870
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[11]'
+Slack : 1.006
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[14]'
+Slack : 1.092
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[16]'
+Slack : 1.102
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[21]'
+Slack : 1.203
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[18]'
+Slack : 1.233
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[1]'
+Slack : 1.233
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[3]'
+Slack : 1.233
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[22]'
+Slack : 1.244
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[5]'
+Slack : 1.282
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[15]'
+Slack : 1.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[17]'
+Slack : 1.381
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[13]'
+Slack : 1.457
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[19]'
+Slack : 1.520
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[0]'
+Slack : 1.614
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[12]'
+Slack : 1.634
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[8]'
+Slack : 1.642
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[2]'
+Slack : 1.647
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[4]'
+Slack : 1.668
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[6]'
+Slack : 1.696
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[9]'
+Slack : 1.733
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ripple_counter:U0|q_i[10]'
+Slack : 1.907
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.053
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[0]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[10]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[11]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[12]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[13]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[14]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[15]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[16]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[17]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[18]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[19]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[1]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[20]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[21]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[22]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[2]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[3]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[4]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[5]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[6]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[7]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[8]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[9]'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.893
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 29.525
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.231
+TNS   : -0.231
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[11]'
+Slack : 0.055
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[21]'
+Slack : 0.065
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[3]'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[14]'
+Slack : 0.070
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[16]'
+Slack : 0.107
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[12]'
+Slack : 0.111
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[9]'
+Slack : 0.116
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[13]'
+Slack : 0.126
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[6]'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[17]'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[4]'
+Slack : 0.134
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[15]'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[8]'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[18]'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[2]'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[10]'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[20]'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[19]'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[0]'
+Slack : 0.227
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[5]'
+Slack : 0.282
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[7]'
+Slack : 0.282
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[1]'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ripple_counter:U0|q_i[22]'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.009
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[7]'
+Slack : 0.043
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[1]'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[5]'
+Slack : 0.083
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[19]'
+Slack : 0.112
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[10]'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[0]'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[20]'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[22]'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[15]'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[18]'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[17]'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[6]'
+Slack : 0.195
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[12]'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[8]'
+Slack : 0.214
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[4]'
+Slack : 0.218
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[2]'
+Slack : 0.222
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[16]'
+Slack : 0.223
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[14]'
+Slack : 0.226
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[13]'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[3]'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[11]'
+Slack : 0.246
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[9]'
+Slack : 0.247
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ripple_counter:U0|q_i[21]'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.416
+TNS   : -2.416
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[10]'
+Slack : -1.533
+TNS   : -1.533
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[9]'
+Slack : -1.435
+TNS   : -1.435
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[6]'
+Slack : -1.416
+TNS   : -1.416
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[4]'
+Slack : -1.414
+TNS   : -1.414
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[8]'
+Slack : -1.407
+TNS   : -1.407
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[2]'
+Slack : -1.400
+TNS   : -1.400
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[12]'
+Slack : -1.393
+TNS   : -1.393
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[0]'
+Slack : -1.387
+TNS   : -1.387
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[19]'
+Slack : -1.333
+TNS   : -1.333
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[13]'
+Slack : -1.296
+TNS   : -1.296
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[17]'
+Slack : -1.251
+TNS   : -1.251
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[15]'
+Slack : -1.244
+TNS   : -1.244
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[5]'
+Slack : -1.195
+TNS   : -1.195
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[22]'
+Slack : -1.184
+TNS   : -1.184
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[3]'
+Slack : -1.181
+TNS   : -1.181
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[1]'
+Slack : -1.177
+TNS   : -1.177
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[18]'
+Slack : -1.173
+TNS   : -1.173
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[21]'
+Slack : -1.165
+TNS   : -1.165
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[16]'
+Slack : -1.103
+TNS   : -1.103
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[14]'
+Slack : -1.100
+TNS   : -1.100
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[11]'
+Slack : -1.049
+TNS   : -1.049
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[7]'
+Slack : -0.978
+TNS   : -0.978
+
+Type  : Fast 1200mV 0C Model Recovery 'ripple_counter:U0|q_i[20]'
+Slack : -0.952
+TNS   : -0.952
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[20]'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[7]'
+Slack : 0.309
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[11]'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[14]'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[16]'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[18]'
+Slack : 0.511
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[1]'
+Slack : 0.517
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[3]'
+Slack : 0.520
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[21]'
+Slack : 0.521
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[22]'
+Slack : 0.524
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[5]'
+Slack : 0.533
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[15]'
+Slack : 0.596
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[17]'
+Slack : 0.604
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[13]'
+Slack : 0.642
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[19]'
+Slack : 0.677
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[0]'
+Slack : 0.736
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[12]'
+Slack : 0.743
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[2]'
+Slack : 0.749
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[8]'
+Slack : 0.755
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[4]'
+Slack : 0.763
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[6]'
+Slack : 0.764
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[9]'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ripple_counter:U0|q_i[10]'
+Slack : 0.876
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.943
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[0]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[10]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[11]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[12]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[13]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[14]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[15]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[16]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[17]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[18]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[19]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[1]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[20]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[21]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[22]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[2]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[3]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[4]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[5]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[6]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[7]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[8]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ripple_counter:U0|q_i[9]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.666
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 29.607
+TNS   : 0.000
+
+------------------------------------------------------------
