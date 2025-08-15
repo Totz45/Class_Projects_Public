@@ -1,0 +1,127 @@
+%new test next week
+% circuit example
+R = [1+2 , 0 , -2 ;
+        0 , 3 , 0 ;
+        -2 , 0 , 2+4]
+
+R =
+
+     3     0    -2
+     0     3     0
+    -2     0     6
+
+v = [-5 ; 5-6 ; 6]
+
+v =
+
+    -5
+    -1
+     6
+
+i = R\v
+
+i =
+
+   -1.2857
+   -0.3333
+    0.5714
+
+
+clear
+% plotting - subplot
+% subplot divides the plot window into a grid 
+% each element of the grid contains a plot
+x = linspace(0,5,1001);
+y1 = cos(3*x);
+y2 = 300*cos(3*x).^2;
+subplot(2,1,1)
+plot(x,y1)
+xlabel('cosine wave')
+% can label and title for first plot
+subplot(2,1,2)
+plot(x,y2)
+% label axis etc
+
+% another way of getting two axes is "yyaxis"
+yyaxis left
+plot(x,y1)
+ylabel('y1 values')
+yyaxis right
+plot(x,y2)
+ylabel('y2 values')
+% add xlabel and title
+% add a legend to identify the lines
+
+clear
+% 3-d plots
+[x,y] = meshgrid(-2:2,-3:3);
+x
+
+x =
+
+    -2    -1     0     1     2
+    -2    -1     0     1     2
+    -2    -1     0     1     2
+    -2    -1     0     1     2
+    -2    -1     0     1     2
+    -2    -1     0     1     2
+    -2    -1     0     1     2
+
+y
+
+y =
+
+    -3    -3    -3    -3    -3
+    -2    -2    -2    -2    -2
+    -1    -1    -1    -1    -1
+     0     0     0     0     0
+     1     1     1     1     1
+     2     2     2     2     2
+     3     3     3     3     3
+
+r = sqrt(x.^2+y.^2); % radius from origin
+mesh(x,y,r)
+
+clear
+[x,y] = meshgrid(linspace(-20,20,35),-15:30);
+r = sqrt(x.^2+y.^2); % radius from origin
+z = sinc(r/3);
+{Check for incorrect argument data type or missing argument in call to function 'sinc'.
+} 
+z = sinc(r./3);
+{Check for incorrect argument data type or missing argument in call to function 'sinc'.
+} 
+z = sinc(r)
+{Check for incorrect argument data type or missing argument in call to function 'sinc'.
+} 
+mesh(x,y,r)
+sinc(x)
+{Check for incorrect argument data type or missing argument in call to function 'sinc'.
+} 
+syms z
+f = sinc(z/3)
+ 
+f =
+ 
+(3*sin((pi*z)/3))/(z*pi)
+ 
+clear
+
+[sigma,omega] = meshgrid(linspace(-30,10,100),linspace(-70,70,120));
+s = sigma + 1j*omega;
+H = (0.324*s.^2+447)./(s.^2+17.1*s+502);
+mesh(sigma,omega,abs(H))
+xlabel('\sigma')
+ylabel('\omega')
+zlabel('|H(s)|')
+title('Filter response on s-plane')
+
+clear
+[x,y] = meshgrid(linspace(-20,20,35),-15:30);
+r = sqrt(x.^2+y.^2); % radius from origin
+z = sinc(r/3);
+{Check for incorrect argument data type or missing argument in call to function 'sinc'.
+} 
+sinc(0)
+{Check for incorrect argument data type or missing argument in call to function 'sinc'.
+} 

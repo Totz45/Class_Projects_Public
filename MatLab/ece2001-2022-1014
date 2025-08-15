@@ -1,0 +1,252 @@
+
+% symbolic computations
+
+% example 1 - solving simultaneous equations
+
+syms x y
+s = solve ( y==x^2-1 , y==2*x );
+s
+
+s = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    x: [2×1 sym]
+    y: [2×1 sym]
+
+s.x
+ 
+ans =
+ 
+1 - 2^(1/2)
+2^(1/2) + 1
+ 
+s.y
+ 
+ans =
+ 
+2 - 2*2^(1/2)
+2*2^(1/2) + 2
+ 
+double(s.x)
+
+ans =
+
+   -0.4142
+    2.4142
+
+double(s.y)
+
+ans =
+
+   -0.8284
+    4.8284
+
+clear
+
+% example 2 - integration and differentiation
+
+syms x
+f(x) = x^3+x^2+x+1
+ 
+f(x) =
+ 
+x^3 + x^2 + x + 1
+ 
+int(f,x)
+ 
+ans(x) =
+ 
+x^4/4 + x^3/3 + x^2/2 + x
+ 
+diff(f,x)
+ 
+ans(x) =
+ 
+3*x^2 + 2*x + 1
+ 
+df = diff(f,x)
+ 
+df(x) =
+ 
+3*x^2 + 2*x + 1
+ 
+subs(df,x,2)
+ 
+ans(x) =
+ 
+17
+ 
+clear
+
+% example 3 - partial differentiation
+
+syms u v
+g(u,v) = sin(u^2+v^3)
+ 
+g(u, v) =
+ 
+sin(u^2 + v^3)
+ 
+diff(g,u)
+ 
+ans(u, v) =
+ 
+2*u*cos(u^2 + v^3)
+ 
+diff(g,v)
+ 
+ans(u, v) =
+ 
+3*v^2*cos(u^2 + v^3)
+ 
+clear
+
+% example 4 - expansion and factoring
+
+syms a x
+
+expand( (a+2)^5 )
+ 
+ans =
+ 
+a^5 + 10*a^4 + 40*a^3 + 80*a^2 + 80*a + 32
+ 
+factor( x^2-1 )
+ 
+ans =
+ 
+[x - 1, x + 1]
+ 
+factor( x^2+1 )
+ 
+ans =
+ 
+x^2 + 1
+ 
+factor ( x^2+1 , 'FactorMode' , 'complex' ) % tell it to use complex
+ 
+ans =
+ 
+[x + 1.0i, x - 1.0i]
+ 
+
+clear
+
+% example 5 - solving system of equations as a function of another variable
+
+syms a b t
+
+q = solve ( a+b==2 , a-b==sin(t) , a , b );
+q
+
+q = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    a: sin(t)/2 + 1
+    b: 1 - sin(t)/2
+
+q.a
+ 
+ans =
+ 
+sin(t)/2 + 1
+ 
+q.b
+ 
+ans =
+ 
+1 - sin(t)/2
+ 
+double(q.a)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('symengine')" style="font-weight:bold">symengine</a>
+Unable to convert expression containing symbolic variables into double array. Apply 'subs' function first
+to substitute values for variables.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sym/double', 'C:\Program Files\MATLAB\R2022a\toolbox\symbolic\symbolic\@sym\sym.m', 868)" style="font-weight:bold">sym/double</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022a\toolbox\symbolic\symbolic\@sym\sym.m',868,0)">line 868</a>)
+        Xstr = mupadmex('symobj::double', S.s, 0);
+
+<a href="matlab:helpview('symbolic','error_double_CantConvertVariable')" style="font-weight:bold">Related documentation</a>
+} 
+% note - can't evaluate yet because t is still a variable
+% can use subs to set t to a value then evaluate
+double(subs(q.a,t,0.3))
+
+ans =
+
+    1.1478
+
+% note - can substitute a vector, such as a time axis, then result can be used to create a plot
+
+% constants can be defined symbolically
+
+p = syms(pi)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('syms')" style="font-weight:bold">syms</a>
+Using input and output arguments simultaneously is not supported.
+} 
+e = syms(3)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('syms')" style="font-weight:bold">syms</a>
+Using input and output arguments simultaneously is not supported.
+} 
+syms x y
+x = pi
+
+x =
+
+    3.1416
+
+e = sym(3)
+ 
+e =
+ 
+3
+ 
+y = sym(pi)
+ 
+y =
+ 
+pi
+ 
+x-y
+ 
+ans =
+ 
+0
+ 
+double(x^2-y^2)
+
+ans =
+
+  -6.2653e-16
+
+% when performing symbolic computations need constants to be symbolic
+% rather than double (exception: integer values can be represented exactly)
+
+clear
+
+% example - rc circuit - solve differential equation
+
+% circuit is parallel combination of current source, R, C
+% current source has value I and is short-circuited for t<0
+
+syms I R C vc(t)
+
+ode = diff(vc,t)==I/C-vc/(R*C);
+cond = vc(0)==0;
+
+vcSol = dsolve(ode,cond);
+
+vcSol
+ 
+vcSol =
+ 
+I*R - I*R*exp(-t/(C*R))
+ 
+fplot( subs(vcSol,[I,R,C],[4,2,0.75]) , [0,5] )
+x = 1+1
+
+x =
+
+     2
+

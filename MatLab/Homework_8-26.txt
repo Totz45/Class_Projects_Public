@@ -1,0 +1,133 @@
+% #9 Think about what the results would be for the following expressions
+% p. = prediction
+% 25 / 5 * 3 = p. 15
+25 / 5 * 3
+
+ans =
+
+    15
+
+% 4 + 2 ^ 3 = p. 12
+4 + 2 ^ 3
+
+ans =
+
+    12
+
+% (4 + 1) ^ 2 = p. 25
+(4 + 1) ^ 2
+
+ans =
+
+    25
+
+% 2 \ 12 + 5 = p. 11
+2 \ 12 + 5
+
+ans =
+
+    11
+
+% 4 - 1 * 5 = p. -1
+4 - 1 * 5
+
+ans =
+
+    -1
+
+% 19 The combined resistance Rt of three resistors R1, R2, and R3 in parallel is given by
+% Rt = 1 / ( (1 / R1) + (1 / R2) + (1 / R3) )
+% Create variables for each resistor and solve for the combined resistance
+% Let R1 = 20 Ohms, R2 = 10 Ohms, and R3 = 5 Ohms.
+R1 = 20
+
+R1 =
+
+    20
+
+R2 = 10
+
+R2 =
+
+    10
+
+R3 = 5
+
+R3 =
+
+     5
+
+1 / ( (1 / R1) + (1 / R2) + (1 / R3) )
+
+ans =
+
+    2.8571
+
+% Verifying by hand we get 1 / ( (1 / 20) + (1 / 10) + (1 / 5) )
+% Simplified to 1 / ( (1 / 20) + (2 / 20) + (4 / 20) )
+% Summing the denominator  1 / (7 / 20)
+% Multiply numerator and denominator by 20 -- (1 * 20) / ( (7 / 20) * 20)
+% We get (20 / 7) = 2.8571
+
+% #22 Explain why the following expression results in 1 for true
+% result = -20
+% 0 <= result <= 10
+
+result = -20
+
+result =
+
+   -20
+
+0 <= result <= 10
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+helpPopup logical
+helpPopup logical
+% Theory: the program can only interpret 1 function at a time 
+% 0 <= result counts as one while 0 <= result <= 10 counts as two
+% Test
+result
+
+result =
+
+   -20
+
+0 <= result
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+% program believes this is false, that is correct
+% take that answer and plug it in to the next equation
+0 <= 10
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+% it is true, but to confirm this theory lets try another expression
+0 < result < 1
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+%(0 < result) would be 0 which 0 < 1 is true.
+% Summary: For multiple truth expressions, Matlab evaluates one at a time and uses the value
+% for true (1) or false (0) to evaluate the next expression leaving expressions with multiple
+% statements to be mostly incorrect compared to human evaluation of the same problem.
+
+diary Homework_8-26.txt

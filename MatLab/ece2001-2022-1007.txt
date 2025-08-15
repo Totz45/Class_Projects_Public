@@ -1,0 +1,96 @@
+N = 100;
+a =0.002;
+b=0.8;
+c=-12;
+
+x=1:N;
+y=a*x.^2+b*x+c
+
+y =
+
+  Columns 1 through 10
+
+  -11.1980  -10.3920   -9.5820   -8.7680   -7.9500   -7.1280   -6.3020   -5.4720   -4.6380   -3.8000
+
+  Columns 11 through 20
+
+   -2.9580   -2.1120   -1.2620   -0.4080    0.4500    1.3120    2.1780    3.0480    3.9220    4.8000
+
+  Columns 21 through 30
+
+    5.6820    6.5680    7.4580    8.3520    9.2500   10.1520   11.0580   11.9680   12.8820   13.8000
+
+  Columns 31 through 40
+
+   14.7220   15.6480   16.5780   17.5120   18.4500   19.3920   20.3380   21.2880   22.2420   23.2000
+
+  Columns 41 through 50
+
+   24.1620   25.1280   26.0980   27.0720   28.0500   29.0320   30.0180   31.0080   32.0020   33.0000
+
+  Columns 51 through 60
+
+   34.0020   35.0080   36.0180   37.0320   38.0500   39.0720   40.0980   41.1280   42.1620   43.2000
+
+  Columns 61 through 70
+
+   44.2420   45.2880   46.3380   47.3920   48.4500   49.5120   50.5780   51.6480   52.7220   53.8000
+
+  Columns 71 through 80
+
+   54.8820   55.9680   57.0580   58.1520   59.2500   60.3520   61.4580   62.5680   63.6820   64.8000
+
+  Columns 81 through 90
+
+   65.9220   67.0480   68.1780   69.3120   70.4500   71.5920   72.7380   73.8880   75.0420   76.2000
+
+  Columns 91 through 100
+
+   77.3620   78.5280   79.6980   80.8720   82.0500   83.2320   84.4180   85.6080   86.8020   88.0000
+
+y = y + 2*randn(size(y)) + 20*randn(size(y)).*(randn(size(y))>1.5);
+plot(x,y,'o')
+
+coefs = polyfit(x,y,2)
+
+coefs =
+
+    0.0024    0.7484  -10.8178
+
+yfit = polyval(coefs,x);
+
+plot(x,y,'o','Display Name','Data')
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Unrecognized property Display Name for class Line.
+} 
+plot(x,y,'o','DisplayName','Data')
+hold on
+plot(x,yfit,'-','DisplayName','Model')
+hold off
+legend('show');
+xlabel('x');
+ylabel('y');
+title('Demonstration of curve fitting')
+[str,maxsize,endian] = computer
+
+str =
+
+    'PCWIN64'
+
+
+maxsize =
+
+   2.8147e+14
+
+
+endian =
+
+    'L'
+
+license('inuse')
+matlab
+% use symbolic toolbox
+syms x
+license('inuse')
+matlab
+symbolic_toolbox

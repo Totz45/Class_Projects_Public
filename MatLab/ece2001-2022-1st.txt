@@ -1,0 +1,10 @@
+% example of a ploy
+t = linspace(0,5,1001);
+y = exp(-t/2).*sin(3*pi).*(t>1);
+plot(t,y)
+y = exp(-t/2).*sin(3*pi*t).*(t>1);
+plot(t,y)
+xlabel('Time (s)')
+ylabel('Amplitude (V)')
+title('Signal One')
+

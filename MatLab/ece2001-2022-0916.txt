@@ -1,0 +1,194 @@
+%hw4 q2
+n = 4;
+x = randn (1,n);
+x
+
+x =
+
+    0.5377    1.8339   -2.2588    0.8622
+
+x>0
+
+ans =
+
+  1×4 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+
+   1   1   0   1
+
+sum(ans)
+
+ans =
+
+     3
+
+sum(randn(1,n)>0)
+
+ans =
+
+     2
+
+sum(randn(1,n)>0)
+
+ans =
+
+     3
+
+sum(randn(1,n)>0)
+
+ans =
+
+     2
+
+sum(randn(1,n)>0)
+
+ans =
+
+     3
+
+sum(randn(1,n)>0)
+
+ans =
+
+     3
+
+sum(randn(1,n)>0)
+
+ans =
+
+     3
+
+sum(randn(1,n)>0)
+
+ans =
+
+     2
+
+sum(randn(1,n)>0)
+
+ans =
+
+     1
+
+HW4_Problem_2
+Enter the size of the vector: 5
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+Invalid file identifier.  Use fopen to generate a valid file identifier.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW4_Problem_2', 'C:\Users\tatef\Documents\MATLAB\HW4_Problem_2.m', 20)" style="font-weight:bold">HW4_Problem_2</a> (<a href="matlab: opentoline('C:\Users\tatef\Documents\MATLAB\HW4_Problem_2.m',20,0)">line 20</a>)
+fprintf(result);
+} 
+HW4_Problem_2
+Enter the size of the vector: 5
+-5.043129e-01HW4_Problem_2
+Enter the size of the vector: 4
+
+HW4_Problem_2
+Enter the size of the vector: 5
+
+ans =
+
+   -3.1208
+
+HW4_Problem_2
+Enter the size of the vector: 5
+
+ans =
+
+     3
+
+% If, else, if else
+
+% if statements need an end not {}
+
+% switches, list cases, otherwise, default statement
+% use curly braces to include more than 1 item in a case
+
+% is letter returns logical if each character is a letter
+% isempty returns logical if there is one dimension missing
+x = [1,2];
+y = [1.23,2];
+z = [3+4j,2];
+isreal(x)% checks for simple numbers
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+isreal(y)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+isreal(z)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+w = [1+0j,2];
+w=complex(1,0);
+w
+
+w =
+
+   1.0000 + 0.0000i
+
+isreal(w)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+isinteger(x)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+a = int32(44)
+
+a =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   44
+
+isinteger(a)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+% loops
+% for loop, repeats a specific number of times
+% while w/ logical condition, you can use break to break an infinite loop
+% you can also use continue
+
+% example of a loop
+t = linspace(-1,1,1001); % time in seconds
+y = zeros(size(t));
+for n = 1:2:29
+       y = y + (1/n)*sin(4*pi*n*t);
+end
+plot(t,y)
+% add axises and title
+x = 0
+
+x =
+
+     0
+
+clear

@@ -1,0 +1,88 @@
+% how to manipulate arrays
+% appending
+
+clear ; x=zeros(1, 1e8); % make sure memory is allocated by OS
+
+clear ; tic ; x=[] ; for i=1:1e8 ; x(i)=i ; end ; toc % tic means start, toc means stop. Empty array
+Elapsed time is 8.643666 seconds.
+
+clear ; tic ; x=zeros(1,1e8) ; for i=1:1e8 ; x(i)=i ; end ; toc % should be faster
+Elapsed time is 0.263135 seconds.
+
+
+clear ; tic ; x=1:1e8 ; toc % try native operator(colon)
+Elapsed time is 0.204331 seconds.
+
+
+% functions
+
+% declare function [y1...yN] = myFunction(x1...xM)
+
+help square
+   square() 
+        returns the square of the values of x
+        function help is everything until a blank line
+
+zed = square([2,3,4])
+
+zed =
+
+     4     9    16
+
+beta = squarecube([2,3,4])
+
+beta =
+
+     4     9    16
+
+[beta,gamma] = squarecube([2,3,4])
+
+beta =
+
+     4     9    16
+
+
+gamma =
+
+     8    27    64
+
+
+
+% basic statistics
+
+R1 = 1000+50*randn(1,1000); % create 1000 random resistor values
+
+R1_mean = mean(R1) % mean value
+
+R1_mean =
+
+  998.3684
+
+R1_std = std(R1) % standard deviation
+
+R1_std =
+
+   49.9483
+
+R1_min = min(R1) % minimum
+
+R1_min =
+
+  838.3981
+
+R1_max = max(R1) % maximum
+
+R1_max =
+
+   1.1789e+03
+
+histogram(R1)
+histogram(R1,50)
+% ASTM American Wire Gauge, tech students have compass.
+x = 0
+
+x =
+
+     0
+
+clear

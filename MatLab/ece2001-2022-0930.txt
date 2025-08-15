@@ -1,0 +1,69 @@
+help square
+   result = square() 
+        returns the square of the values of x
+        function help is everything until a blank line
+
+help copperWireParameters
+  copperWireParameter.m
+
+help copperWireParameter
+  <strong>copperWireParameter</strong>.m
+
+help copperWireParameters
+   [rpf, diameterin] = <strong>copperWireParameters</strong>()
+        returns the resistance per foot and diameter in inches
+        of a copper wire.
+
+clc
+% use reliable sources
+
+% reference to formulas and algorithms
+
+% good comments- top of function or script
+% what does it do?
+% how does it work?
+% organize code into blocks, if any extra cases add a comment
+
+% variable names are descriptive
+% ex solving a circuit equation using matrix algebra:
+% equation is y = Ax, in matlab to solve for x, x = A\y
+% I = GV, in matlab to solve for V, V = G\I
+% I-current, G-conductance, V-voltage
+
+% anonymous functions (function handle)
+
+squarer = @ (x) x.^2
+
+squarer =
+
+  <a href="matlab:helpPopup function_handle" style="font-weight:bold">function_handle</a> with value:
+
+    @(x)x.^2
+
+% function name: @ symbol, argument, code
+y = squarer(4)
+
+y =
+
+    16
+
+distance = @ (x,y) sqrt(x.^2+y.^2)  
+
+distance =
+
+  <a href="matlab:helpPopup function_handle" style="font-weight:bold">function_handle</a> with value:
+
+    @(x,y)sqrt(x.^2+y.^2)
+
+distance(3,4)
+
+ans =
+
+     5
+
+distance([3,40],[4,30])
+
+ans =
+
+     5    50
+
