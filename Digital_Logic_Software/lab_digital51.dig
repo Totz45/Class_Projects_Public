@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>7400.dig</elementName>
+      <elementAttributes/>
+      <pos x="160" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>7404.dig</elementName>
+      <elementAttributes/>
+      <pos x="580" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>7427.dig</elementName>
+      <elementAttributes/>
+      <pos x="980" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes/>
+      <pos x="-120" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes/>
+      <pos x="-120" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes/>
+      <pos x="-120" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes/>
+      <pos x="1360" y="300"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-60" y="80"/>
+      <p2 x="540" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="180"/>
+      <p2 x="-60" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="200"/>
+      <p2 x="580" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="80"/>
+      <p2 x="-60" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="80"/>
+      <p2 x="540" y="200"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

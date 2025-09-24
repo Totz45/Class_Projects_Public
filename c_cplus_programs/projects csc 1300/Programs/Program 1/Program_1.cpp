@@ -38,7 +38,7 @@ int main()
         cout << "out your personality traits.\n\n";
 
         //first question: introvert vs extrovert
-        cout << "\nIn a group discussing on a topic, I often find myself\n";
+        cout << "\nIn a group discussing a topic, I often find myself\n";
         cout << "\ta) Dominating the conversation\n";
         cout << "\tb) Pitching in here and there\n";
         cout << "\tc) Contributing a decent amount\n";
@@ -208,9 +208,9 @@ int main()
         }
 
         //sixth question: silly vs serious
-        cout << "\n\nSelect a catchphrase.\n";
+        cout << "\n\nWhat is closest to your go to catchphrase.\n";
         cout << "\ta) Lets do this\n";
-        cout << "\tb) Yeet\n";
+        cout << "\tb) Yolo\n";
         cout << "\tc) Imma go all out\n";
         cout << "\td) It's on like Donkey Kong\n";
         cin >> userAnswer;
@@ -239,8 +239,7 @@ int main()
         }
 
         //seventh question: negative vs positive
-        cout << "\n\nHow do you respond to someone if they win and";
-        cout << " you lose?\n";
+        cout << "\n\nWhat is your response to losing against an opponent?\n";
         cout << "\ta) Why are you so LUCKY?!\n";
         cout << "\tb) Good Game\n";
         cout << "\tc) Make up an excuse\n";
@@ -374,7 +373,7 @@ int main()
         cout << "\ta) This is fine\n";
         cout << "\tb) Aw yeah a C\n";
         cout << "\tc) I should improve next time\n";
-        cout << "\td) This is a death sentence to passing this class\n";
+        cout << "\td) I'm a failure\n";
         cin >> userAnswer;
 
         //validates answer
@@ -402,7 +401,7 @@ int main()
 
         //twelfth question: planner vs spontaneous and serious vs silly
         cout << "\n\nA friend invites you to a party, but you are\n";
-        cout << " trying to finish a resume, what do you respond\n";
+        cout << " trying to finish an assignment, what is your response\n";
         cout << "\ta) No, I have work to do\n";
         cout << "\tb) I have some time\n";
         cout << "\tc) Let me finish then I'll come\n";

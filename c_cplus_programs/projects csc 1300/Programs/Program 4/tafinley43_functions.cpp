@@ -7,9 +7,9 @@
 #include "tafinley43_prog4.h"
 /*
     Function Name: enterHeroes()
-    Parameters: an integer indicating the current number of heroes in the 
-                Heroes array, the maximum amount of heroes that can be 
-                stored in the Heroes array and the Heroes array.
+    Parameters: an integer indicating the maximum amount of heroes that can be 
+                stored in the Heroes array, the current number of heroes in the 
+                Heroes array,  and the Heroes array.
     Returns: an integer indicating the current number of heroes in the 
                 Heroes array 
     Purpose: allows user to either enter information about a hero from a
@@ -18,7 +18,7 @@
 int enterHeroes(int maxHeroes, int currHeroes, Heroes heroArray[])
 {
     int choice; //stores selection data
-    bool goAgain = true;//allows another superhero to be entered manually
+    
     int newHeroes = 0;//amount of heroes created using this function
     string fileName;//file name containing heroes
     string tempString;//temporary variable
@@ -118,62 +118,63 @@ int enterHeroes(int maxHeroes, int currHeroes, Heroes heroArray[])
                         break;
                     case 2:
                         //if option 2 is selected this line of code executes
-                        for(int i = currHeroes; i < maxHeroes; ++i)
-                        {
-                            //repeats for every time a user wants to add another hero
-                            while(goAgain)
-                            {    
-                                //gets needed information for hero and stores in the appropriate variable
-                                cin.ignore();
-                                cout << "\nSUPERHERO NAME: ";
-                                getline(cin, heroArray[i].heroName);
-                                cout << "\nDESCRIPTION: ";
-                                getline(cin, heroArray[i].heroDescription);
-                                tempChar = '0';//allows while loop to be entered
-                                while(tempChar != 'y' && tempChar != 'n')
+                        int i = currHeroes;
+                        //repeats for every time a user wants to add another hero
+                        bool goAgain = true;//allows another superhero to be entered manually
+                        
+                        while(goAgain && i < maxHeroes)
+                        {    
+                            //gets needed information for hero and stores in the appropriate variable
+                            cin.ignore();
+                            cout << "\nSUPERHERO NAME: ";
+                            getline(cin, heroArray[i].heroName);
+                            cout << "\nDESCRIPTION: ";
+                            getline(cin, heroArray[i].heroDescription);
+                            tempChar = '0';//allows while loop to be entered
+                            while(tempChar != 'y' && tempChar != 'n')
+                            {
+                                cout << "\nIS IT A DANGEROUS HERO? (y or n): ";
+                                cin >> tempChar;
+                                //stores answer as a boolean variable
+                                if(tempChar == 'y')
                                 {
-                                    cout << "\nIS IT A DANGEROUS HERO? (y or n): ";
-                                    cin >> tempChar;
-                                    //stores answer as a boolean variable
-                                    if(tempChar == 'y')
-                                    {
-                                        heroArray[i].heroDanger = true;
-                                    } else if(tempChar == 'n')
-                                    {
-                                        heroArray[i].heroDanger = false;
-                                    }
-                                }
-    
-                                cout << "\nHow much does " << heroArray[i].heroName;
-                                cout << " pay for rent per month?\nRENT PRICE:  $";
-                                cin >> heroArray[i].rentTotal.heroCost;
-                                cout << "\nWhat is the typical cost of damage " ;
-                                cout << heroArray[i].heroName << " has each month?\nDAMAGE COST:  $";
-                                cin >> heroArray[i].rentTotal.heroDamage;
-                                cout << "\nHow many years has " << heroArray[i].heroName;
-                                cout << " lived in your condo?\nYEARS:  ";
-                                cin >> heroArray[i].rentTotal.rentYears;
-                                cout << "\nThe " << heroArray[i].heroName << " has been added";
-                                ++currHeroes;//one more hero is added to the heroes array
-                                ++newHeroes;//a new hero has been added
-                                tempChar = '0';//allows while loop to be entered
-                                while(tempChar != 'y' && tempChar != 'n')
+                                    heroArray[i].heroDanger = true;
+                                } else if(tempChar == 'n')
                                 {
-                                    //asks user if they want to enter another hero
-                                    cout << "\n\nWant to add more heroes? (y or n)  ";
-                                    cin >> tempChar;
-                                    if(tempChar == 'y')
-                                    {
-                                        goAgain = true;
-                                    } else 
-                                    {
-                                        goAgain = false;
-                                    }
+                                    heroArray[i].heroDanger = false;
                                 }
                             }
+
+                            cout << "\nHow much does " << heroArray[i].heroName;
+                            cout << " pay for rent per month?\nRENT PRICE:  $";
+                            cin >> heroArray[i].rentTotal.heroCost;
+                            cout << "\nWhat is the typical cost of damage " ;
+                            cout << heroArray[i].heroName << " has each month?\nDAMAGE COST:  $";
+                            cin >> heroArray[i].rentTotal.heroDamage;
+                            cout << "\nHow many years has " << heroArray[i].heroName;
+                            cout << " lived in your condo?\nYEARS:  ";
+                            cin >> heroArray[i].rentTotal.rentYears;
+                            cout << "\nThe " << heroArray[i].heroName << " has been added";
                             
-                            
-                        } 
+                            ++i;//increment i
+                            ++currHeroes;//one more hero is added to the heroes array
+                            ++newHeroes;//a new hero has been added
+                            tempChar = '0';//allows while loop to be entered
+                            while(tempChar != 'y' && tempChar != 'n')
+                            {
+                                //asks user if they want to enter another hero
+                                cout << "\n\nWant to add more heroes? (y or n)  ";
+                                cin >> tempChar;
+                                if(tempChar == 'y')
+                                {
+                                    goAgain = true;
+                                } else 
+                                {
+                                    goAgain = false;
+                                }
+                            }
+                        }
+                             
                         
                         break; 
                }
@@ -229,13 +230,12 @@ int deleteHeroes(int totalHeroes, Heroes heroArray[])
 */
 bool moveArrayElement(int numHeroes, string heroesName, Heroes heroArray[])
 {
-    bool deleteHero = false;//can hero be deleted
     for(int i = 0; i < numHeroes; ++i)
     {
         if(heroesName == heroArray[i].heroName)
         {
             //if so moves over all array elements passed the deleted hero by 1
-            for(int j = i; j < numHeroes; ++j)
+            for(int j = i; j < numHeroes-1; ++j)
             {
                 heroArray[j].heroName = heroArray[j + 1].heroName;
                 heroArray[j].heroDescription = heroArray[j + 1].heroDescription;
@@ -243,12 +243,13 @@ bool moveArrayElement(int numHeroes, string heroesName, Heroes heroArray[])
                 heroArray[j].rentTotal.heroCost = heroArray[j + 1].rentTotal.heroCost;
                 heroArray[j].rentTotal.heroDamage = heroArray[j + 1].rentTotal.heroDamage;
                 heroArray[j].rentTotal.rentYears = heroArray[j + 1].rentTotal.rentYears;
-                deleteHero = true;
             }
+            
+            return true;
         }
     }
 
-    return deleteHero;//returns boolean
+    return false;//returns boolean
 }
 /*
     Function Name: printHeroes()
